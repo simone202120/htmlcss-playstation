@@ -13,3 +13,17 @@
 .icon{
    font-size: 20px;
 }
+#jumbotron{
+    background-size: cover;
+    background-image:url("../img/jumbo-bg.png");
+    height:95vh
+}
+.box-jumbo{
+    width: 35%;
+    height: 100px;
+    left: 75px;
+    bottom: 220px;
+}
+.box-jumbo img{
+    width: 100%;
+}
