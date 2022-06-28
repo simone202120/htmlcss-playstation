@@ -43,3 +43,29 @@
 .border-card{
     border-color: #0070d1;
 }
+#jumbotron2{
+    background-position: center;
+    background-size: cover;
+    background-image:url("../img/it-takes-two-hero-banner-desktop.jpg");
+    height: 113vh;
+}   
+.box-jumbo2{
+    width: 40%
+}
+.box-jumbo2 img{
+    height: 200px;
+}
+#nuoveuscite{
+    background-color: #1f1f1f;
+    padding-bottom: 50px;
+}
+.backcard{
+    background-color: #1f1f1f;
+}
+.box-titolo{
+    margin: auto;
+    width: 50%;
+}
+#PlayPlus{
+    background-color: #bebcbb;
+}
