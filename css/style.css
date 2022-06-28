@@ -14,9 +14,11 @@
    font-size: 20px;
 }
 #jumbotron{
+    background-position: center;
     background-size: cover;
     background-image:url("../img/jumbo-bg.png");
-    height:95vh
+    height: 100vh;
+    margin-top: 100px;
 }
 .box-jumbo{
     width: 35%;
@@ -26,4 +28,18 @@
 }
 .box-jumbo img{
     width: 100%;
+}
+.bordo-active{
+    border: solid 2px #0070d1;
+}
+.blue{
+    color: #0070d1;
+}
+.descrizionetitolo{
+    color: #727272;
+    font-size: 20px;
+}
+
+.border-card{
+    border-color: #0070d1;
 }
