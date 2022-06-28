@@ -67,5 +67,23 @@
     width: 50%;
 }
 #PlayPlus{
-    background-color: #bebcbb;
+    background-color: #bebcbb;   
+}
+
+.my_width{
+    width: 70%;
+}
+.style-button{
+    color: #0070d1;
+    background-color: #d9dadc;
+}
+#PlayStudio{
+    background-color: #161c3b;
+}
+.buttonStudio{
+    background-color:#d9dadc;
+}
+.box-social{
+    width: 70%;
+    margin: auto;
 }
