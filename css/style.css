@@ -5,14 +5,20 @@
     height: 30px;
     background-color: black;
     width: 100%;
-    
 }
+
 .barralogo img{
  height: 15px;
 }
+
+.menu-scomparsa{
+    width: 100%;
+}
+
 .icon{
    font-size: 20px;
 }
+
 #jumbotron{
     background-position: center;
     background-size: cover;
@@ -40,8 +46,8 @@
     font-size: 20px;
 }
 
-.border-card{
-    border-color: #0070d1;
+.card-border{
+    opacity: 0.5;
 }
 #jumbotron2{
     background-position: center;
@@ -86,4 +92,67 @@
 .box-social{
     width: 70%;
     margin: auto;
+}
+
+footer{
+    background-color: #00439c;
+}
+
+.my-list{
+    color:white;
+    list-style: none;
+    text-decoration: none;
+}
+.imgFoot{
+    height: 70px;
+}
+
+/* media query*/
+
+@media only screen and (max-width: 768px) {
+    .box-jumbo{
+        width: 80%;
+    }
+    .box-jumbo2{
+        width: 80%;
+    }
+    .box-jumbo img{
+        width: 40%;
+    }
+    .none{
+        display: none;
+    }
+    
+}
+
+/*regole hoover*/
+
+.card-border:hover{
+    border-bottom: solid 3px #0070d1;
+    opacity: 1;
+}
+
+.cornice:active{
+    border: solid 2px #0070d1;
+}
+.hoverButtRed:hover{
+    outline: 2px solid rgb(221, 31, 31);
+    outline-offset: 5px;
+    background-color: rgb(221, 31, 31);
+}
+.hoverButtblack:hover{
+    outline: 2px solid rgb(7, 7, 7);
+    outline-offset: 3px;
+}
+.hoverButtGray2:hover{
+    outline: 2px solid #0f0f0f;
+    outline-offset: -4px;
+    background-color:#d9dadc;
+    color: #000000;
+}
+.hoverButtGray:hover{
+    outline: 2px solid #d9dadc;
+    outline-offset: 3px;
+    background-color:#d9dadc;
+    color: #0070d1;
 }
